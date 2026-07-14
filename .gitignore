@@ -1,0 +1,19 @@
+# Ignore Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Ignore IDE files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Ignore logs
+*.log
+
+# Ignore application properties with sensitive data
+application-local.properties
+backend/.env
+
+# Ignore test output
+*.class
